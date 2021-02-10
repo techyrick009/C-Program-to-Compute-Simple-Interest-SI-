@@ -1,0 +1,37 @@
+/*
+ *  Author: techyrick.com
+ */
+
+#include 
+//#include 
+
+void main() {
+
+  int principle;
+  int rate;
+  int duration;
+  float simpleInterest;
+
+//	clrscr();
+
+	printf(" Simple Interest Calcuation :  ");
+
+	printf("\n\n Enter Principle Amount : ");
+	scanf("%d", &principle);
+    
+    printf("\n\n Enter Rate of Interest : ");
+	scanf("%d", &rate);
+    
+    printf("\n\n Enter Duration : ");
+    scanf("%d", &duration);
+    
+    simpleInterest = (principle*duration*rate)/100;
+    
+    printf("\n\nSimple Interest :  %lf  \n",simpleInterest);
+
+
+  
+//	getch();
+
+
+}
